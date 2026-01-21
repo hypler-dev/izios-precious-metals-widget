@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IZIOS Metals - Live Ticker Example</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 { margin-bottom: 8px; }
+    p { color: #666; margin-bottom: 24px; }
+    .widget-container { margin-bottom: 40px; }
+    h2 { font-size: 18px; margin-bottom: 12px; color: #333; }
+    .dark-section {
+      background: #0f172a;
+      padding: 24px;
+      border-radius: 12px;
+    }
+    .dark-section h2 { color: #fff; }
+  </style>
+</head>
+<body>
+  <h1>Live Price Ticker</h1>
+  <p>Scrolling ticker displaying all precious metals prices.</p>
+
+  <div class="widget-container">
+    <h2>Light Theme</h2>
+    <div id="izios-metals-widget" data-type="ticker" data-theme="light"></div>
+  </div>
+
+  <div class="dark-section">
+    <h2>Dark Theme</h2>
+    <div id="izios-metals-widget-dark" data-type="ticker" data-theme="dark"></div>
+  </div>
+
+  <script src="https://izios.com/widgets/metals.js"></script>
+</body>
+</html>
