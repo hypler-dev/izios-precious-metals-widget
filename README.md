@@ -85,6 +85,6 @@ MIT License - Free for personal and commercial use.
 
 ## Links
 
-- [Widget Builder](https://izios.com/developers/widgets/metals) - Interactive widget configurator
+- [Widget Builder](https://izios.com/developers/metals-widgets) - Interactive widget configurator
 - [IZIOS](https://izios.com) - Lab-grown diamond marketplace
 - [LBMA](https://www.lbma.org.uk/) - Data source
